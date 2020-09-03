@@ -8,6 +8,7 @@
 
 if [ $# -lt 2 ]; then
   echo "Usage: $0 s3dir/YYYY-MM-DD keyword" 1>&2
+  echo "Usage: $0 s3dir/YYYY-MM-DD/HH keyword" 1>&2
   exit 1
 fi
 
